@@ -1,10 +1,10 @@
-# Cadubentzen Mkvdump
+# Homebrew tap for mkvdump
 
-## How do I install these formulae?
+## How do I install the formula?
 
-`brew install cadubentzen/mkvdump/<formula>`
+`brew install cadubentzen/mkvdump/mkvdump`
 
-Or `brew tap cadubentzen/mkvdump` and then `brew install <formula>`.
+Or `brew tap cadubentzen/mkvdump` and then `brew install mkvdump`.
 
 ## Documentation
 
