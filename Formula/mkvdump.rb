@@ -1,8 +1,8 @@
 class Mkvdump < Formula
   desc "MKV and WebM parser CLI tool"
   homepage "https://github.com/cadubentzen/mkvdump"
-  url "https://github.com/cadubentzen/mkvdump/archive/v0.5.1.tar.gz"
-  sha256 "eaf1bdba277fd05fe87c0842c86fd9af78cb35f4e0535db2e9a3dedd174cebab"
+  url "https://github.com/cadubentzen/mkvdump/archive/v0.5.2.tar.gz"
+  sha256 "41a492563289990abee56bc7b8c2eb0e291286ebe9414528317985e263687053"
   license any_of: ["Apache-2.0", "MIT"]
 
   bottle do
