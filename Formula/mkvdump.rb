@@ -6,11 +6,11 @@ class Mkvdump < Formula
   license any_of: ["Apache-2.0", "MIT"]
 
   bottle do
-    root_url "https://github.com/cadubentzen/homebrew-mkvdump/releases/download/mkvdump-0.5.1"
-    sha256 cellar: :any_skip_relocation, ventura:      "8ec6ce011b56d20d3a6366d891c42e720cf9aaa215d71fbc6e57ef0e918cbb19"
-    sha256 cellar: :any_skip_relocation, monterey:     "3f20008bbf4675414b2ef46f3fe9fc35ec78a0d9ba491257cb4ef49c67524b42"
-    sha256 cellar: :any_skip_relocation, big_sur:      "13164a3d7ce67a75173f55b179c39b41f19b00def91a6a31b928ab1de4fa8360"
-    sha256 cellar: :any_skip_relocation, x86_64_linux: "c78568fb3e0e0697c592e97c8de8a824d4440b9dcd6150ea4c0fc04bfcf0d6ec"
+    root_url "https://github.com/cadubentzen/homebrew-mkvdump/releases/download/mkvdump-0.5.2"
+    sha256 cellar: :any_skip_relocation, ventura:      "5aeffd261ce6f10fc514bef84300a667f97db80cf791e3adeabcb55c7c440e14"
+    sha256 cellar: :any_skip_relocation, monterey:     "71555f58f04ac0615f8422fd3ddcbddce00a48509a36d14b30fdbb7b9e427739"
+    sha256 cellar: :any_skip_relocation, big_sur:      "7199a223b8c34f089f90d8bd9912add1cd9e81b7bd9381db9bd1238cc04ba24e"
+    sha256 cellar: :any_skip_relocation, x86_64_linux: "7c6e55857a373df76b13dfb312fe9486db9543b986a1ad4083ee121906d63088"
   end
 
   depends_on "rust" => :build
